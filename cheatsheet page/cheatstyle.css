@@ -1,0 +1,40 @@
+body{
+    margin-left: 4%;
+    box-sizing: border-box;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+}
+.tags{
+    margin-right: 30px;
+}
+
+
+
+
+/* utility classes */
+h1{
+    font-size: 3rem;
+    padding-right: 150px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+h3{
+    font-size: 2rem;
+    color: #8282d3;
+    margin: 10px;
+    text-decoration: underline;
+}
+p{
+    font-size: 2rem;
+} 
+button{
+    padding: 0;
+    border: none;
+}
+
+a:hover{
+    background-color: rgb(152, 152, 226);
+}
